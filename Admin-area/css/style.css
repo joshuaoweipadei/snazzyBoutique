@@ -1,0 +1,100 @@
+
+.container {
+  overflow-x: hidden;
+  background: rgba(93,84,240,0.5);
+  background: -webkit-linear-gradient(left, rgba(0,168,255,0.5), rgba(185,0,255,0.5));
+  background: -o-linear-gradient(left, rgba(0,168,255,0.5), rgba(185,0,255,0.5));
+  background: -moz-linear-gradient(left, rgba(0,168,255,0.5), rgba(185,0,255,0.5));
+  background: linear-gradient(left, rgba(0,168,255,0.5), rgba(185,0,255,0.5));
+}
+#header{
+  height: 140px;
+  background: url(../images/2.jpg);
+  background-position: center;
+  background-size: cover;
+  border-bottom: 5px groove orangered;
+  overflow-x: hidden;
+  padding: 0px 0px 30px 25px;
+}
+#header h2{
+  color: gold;
+  font-size: 65px;
+  font-family: cursive;
+  font-style: italic;
+}
+#body .col-sm-3, #body .col-sm-9{
+  height: auto;
+  margin: auto;
+  padding-left: 0px;
+  padding-right: 0px;
+  overflow-x: hidden;
+}
+#body .col-sm-9{
+  background: url(../images/1.jpg);
+  background-position: center;
+  background-size: cover;
+  border-bottom: 5px groove orangered;
+  height: 800px;
+  overflow-y: scroll;
+}
+#body h4{
+  display: block;
+  text-align: center;
+  font-size: 24px;
+  background: orangered;
+  margin: auto;
+  padding: 10px 20px;
+  color: #fff
+}
+#body h6{
+  display: block;
+  text-align: center;
+  font-size: 24px;
+  background: green;
+  margin: auto;
+  padding: 10px 20px;
+  color: #fff
+}
+#body div li a{
+  font-size: 18px;
+  font-family: ;
+  padding: 6px;
+  margin: 6px;
+  display: block;
+  color: #fff;
+  padding-left: 16px;
+}
+#body div li a:hover{
+  font-weight: bolder;
+  color: red
+}
+#footer{
+  overflow-x: hidden;
+  color: #fff
+}
+/* TABLES */
+table{
+  background: #000;
+  opacity: 0.8;
+  color: #fff
+}
+table tr{
+  margin-top: 100px;
+  padding-top:20px
+}
+table td, table th{
+  padding-right: 10px;
+  padding-left: 20px;
+}
+table td a{
+  color: #fff;
+}
+table input[type=submit], {
+  padding: 9px;
+  color: #fff;
+  background: green;
+  font-size: 19px;
+  border: none;
+  margin-top: 9px;
+  border-radius: 5px
+}
